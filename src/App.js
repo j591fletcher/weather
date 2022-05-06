@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/header';
 import WeatherCard from './components/WeatherCard'
-
+import Forecast from './components/forecast'
 
 const URL = 'https://api.openweathermap.org/data/2.5/weather'
 const API_KEY = '2610178a7047cabec34d20c67dce4d2e'
@@ -48,6 +48,8 @@ function App() {
       city = {city}
       icon = {icon}
       />
+      <Forecast />
+
     </div>
       
   );
