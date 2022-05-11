@@ -8,7 +8,7 @@ export default function Forecast({forecast}){
             <Card.Group itemsPerRow = {4}>
                 {forecast.map((data) => {
                     return (
-                        <Card>
+                        <Card className = "forecast-main">
                             <Card.Content>
                                 <Card.Header className = "forecast-temp">
                                 {new Date(data.dt*1000).toLocaleString("en-US", {weekday: "long"})}

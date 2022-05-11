@@ -23,6 +23,7 @@
 
 .weather-card-main{
     width: 400px !important;
+    border-top: 2px solid blue !important;
 }
 
 .app-header{
@@ -39,8 +40,13 @@
 
 .weather-desc{
     text-transform: capitalize;
+    
 }
 
 .forecast-temp{
     font-family: ABeeZee !important;
+}
+
+.forecast-main{
+    border-top: 2px solid blue !important;
 }
