@@ -35,7 +35,7 @@ const WeatherCard = (
         }
 
     return (
-        <Card>
+        <Card className = "weather-card-main">
             <Card.Content className = "weather-card">
             <Card.Header className = "weather-card-child">{city}</Card.Header>
             <div className = "icon-container">
@@ -73,4 +73,4 @@ const WeatherCard = (
     )
 }
 
-export default WeatherCard
+export default WeatherCard;

@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coda&display=swap');
 .main{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,18 +14,33 @@
     right: -50px;
 }
 
+.weather-card-child{
+    font-family: ABeeZee !important;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.weather-card-main{
+    width: 400px !important;
+}
+
 .app-header{
     font-size: 25px;
     font-family: ABeeZee;
     margin: 20px;
-}
-
-.weather-card-child{
-    font-family: ABeeZee !important;
     
 }
 
 .icon-container{
     position: relative;
-    right: -75px;
+    right: -95px;
+}
+
+.weather-desc{
+    text-transform: capitalize;
+}
+
+.forecast-temp{
+    font-family: ABeeZee !important;
 }
